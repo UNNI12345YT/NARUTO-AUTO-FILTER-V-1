@@ -46,6 +46,9 @@ services:
   - key: ADMINS
     value: your_admin_ids
     sync: true
+   - key: COLLECTION_NAME
+     sync: false
+     value: Telegram_files
   region: oregon
   buildCommand: pip install -r requirements.txt
   startCommand: python3 bot.py
