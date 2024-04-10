@@ -9,11 +9,11 @@ services:
   - key: FORCE_SUB
     sync: false
   - key: PYTHON_VERSION
-    value: 3.9.7
+    value: 3.10.8
     sync: true
   - key: PICS
     value: true
-    sync: true
+    sync: Add some telegraph link of pictures
   - key: LOG_CHANNEL
     value: your_log_channel_id
     sync: true
@@ -22,7 +22,7 @@ services:
     sync: true
   - key: DELETE_CHANNELS
     value: true
-    sync: true
+    sync: Delete Multiple files from db, channel id -100xxxxxxxx
   - key: DATABASE_URI
     value: your_database_uri
     sync: true
