@@ -19,7 +19,7 @@ services:
     sync: true
   - key: FILE_FORWARD
     value: true
-    sync: true
+    sync:  give Channel link for redirect file eg:https://t.me/abcdefgkkjajjm
   - key: DELETE_CHANNELS
     value: true
     sync: Delete Multiple files from db, channel id -100xxxxxxxx
