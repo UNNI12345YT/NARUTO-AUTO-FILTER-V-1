@@ -73,10 +73,30 @@ You can deploy this bot anywhere.
 <p>
 <a href="https://heroku.com/deploy?template=https://github.com/Naruto46i/NARUTO-AUTO-FILTER-V-1">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-
-a href="https://render.com/deploy?repo=https://github.com/Jeronmathew44/NARUTO-AUTO-FILTER-V-1">
+  
+  ### Deploy to render
+  
+  <a href="https://render.com/deploy?repo=https://github.com/Jeronmathew44/NARUTO-AUTO-FILTER-V-1">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
+
+Deploy to Render Button
+Specifying a Repository
+
+Specifying a Branch
+Configuring Auto-Deploys
+
+Button Generator
+
+Did this page help?
+Twitter
+LinkedIn
+GitHub
+Changelog
+Terms
+Privacy
+Security and Trust
+© Render 2023
 ## Commands
 
 ```
