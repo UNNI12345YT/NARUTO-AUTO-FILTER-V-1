@@ -8,35 +8,33 @@ services:
   plan: free
   envVars:
   - key: ADMINS
-    sync: True
+    sync: false
   - key: AI_LOGS
-    sync: True
+    sync: false
   - key: API_HASH
-    sync: True
+    sync: false
   - key: API_ID
-    sync: True
+    sync: false
   - key: BOT_TOKEN
-    sync: True
+    sync: false
   - key: DATABASE_URI
-    sync: True
+    sync: false
   - key: DELETE_CHANNELS
-    sync: True
+    sync: false
   - key: FILE_FORWARD
-    sync: True
+    sync: false
   - key: LOG_CHANNEL
-    sync: True
+    sync: false
   - key: FORCE_SUB
     sync: false
   - key: PYTHON_VERSION
-    sync: True
-    value: 3.10.8
+    sync: false
   - key: PICS
     sync: false
   - key: DATABASE_NAME
     sync: false
   - key: CHACH_FILES
     sync: false
-    value: 300
   region: oregon
   buildCommand: pip install -r requirements.txt
   startCommand: python3 bot.py
