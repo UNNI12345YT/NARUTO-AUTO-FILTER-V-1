@@ -9,31 +9,42 @@ services:
   - key: FORCE_SUB
     sync: false
   - key: PYTHON_VERSION
-    sync: True
+    value: 3.9.7
+    sync: true
   - key: PICS
-    sync: True
+    value: true
+    sync: true
   - key: LOG_CHANNEL
-    sync: True
+    value: your_log_channel_id
+    sync: true
   - key: FILE_FORWARD
-    sync: True
+    value: true
+    sync: true
   - key: DELETE_CHANNELS
-    sync: True
+    value: true
+    sync: true
   - key: DATABASE_URI
-    sync: True
+    value: your_database_uri
+    sync: true
   - key: DATABASE_NAME
     sync: false
   - key: CHACH_FILES
     sync: false
   - key: BOT_TOKEN
-    sync: True
+    value: your_bot_token
+    sync: true
   - key: API_ID
-    sync: True
+    value: your_api_id
+    sync: true
   - key: API_HASH
-    sync: True
+    value: your_api_hash
+    sync: true
   - key: AI_LOGS
-    sync: True
+    value: true
+    sync: true
   - key: ADMINS
-    sync: True
+    value: your_admin_ids
+    sync: true
   region: oregon
   buildCommand: pip install -r requirements.txt
   startCommand: python3 bot.py
