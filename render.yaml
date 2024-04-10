@@ -1,1 +1,42 @@
 
+# Exported from Render on 2024-04-10T11:05:39Z
+services:
+- type: web
+  name: NARUTO-AUTO-FILTER-V-1
+  runtime: python
+  repo: https://github.com/Jeronmathew44/NARUTO-AUTO-FILTER-V-1
+  branch: main
+  plan: free
+  envVars:
+  - key: FORCE_SUB
+    sync: false
+  - key: PYTHON_VERSION
+    sync: false
+  - key: PICS
+    sync: false
+  - key: LOG_CHANNEL
+    sync: false
+  - key: FILE_FORWARD
+    sync: false
+  - key: DELETE_CHANNELS
+    sync: false
+  - key: DATABASE_URI
+    sync: false
+  - key: DATABASE_NAME
+    sync: false
+  - key: CHACH_FILES
+    sync: false
+  - key: BOT_TOKEN
+    sync: false
+  - key: API_ID
+    sync: false
+  - key: API_HASH
+    sync: false
+  - key: AI_LOGS
+    sync: false
+  - key: ADMINS
+    sync: false
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python3 bot.py
+version: "1"
