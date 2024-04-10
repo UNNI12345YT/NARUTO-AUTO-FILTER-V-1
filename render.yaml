@@ -1,5 +1,3 @@
-
-# Exported from Render on 2024-04-10T11:05:39Z
 services:
 - type: web
   name: NARUTO-AUTO-FILTER-V-1
@@ -11,31 +9,31 @@ services:
   - key: FORCE_SUB
     sync: false
   - key: PYTHON_VERSION
-    sync: false
+    sync: True
   - key: PICS
-    sync: false
+    sync: True
   - key: LOG_CHANNEL
-    sync: false
+    sync: True
   - key: FILE_FORWARD
-    sync: false
+    sync: True
   - key: DELETE_CHANNELS
-    sync: false
+    sync: True
   - key: DATABASE_URI
-    sync: false
+    sync: True
   - key: DATABASE_NAME
     sync: false
   - key: CHACH_FILES
     sync: false
   - key: BOT_TOKEN
-    sync: false
+    sync: True
   - key: API_ID
-    sync: false
+    sync: True
   - key: API_HASH
-    sync: false
+    sync: True
   - key: AI_LOGS
-    sync: false
+    sync: True
   - key: ADMINS
-    sync: false
+    sync: True
   region: oregon
   buildCommand: pip install -r requirements.txt
   startCommand: python3 bot.py
