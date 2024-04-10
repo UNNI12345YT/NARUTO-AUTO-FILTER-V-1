@@ -1,4 +1,4 @@
-
+# Exported from Render on 2024-04-10T15:11:46Z
 services:
 - type: web
   name: NARUTO-AUTO-FILTER-V-1
@@ -7,49 +7,36 @@ services:
   branch: main
   plan: free
   envVars:
+  - key: ADMINS
+    sync: True
+  - key: AI_LOGS
+    sync: True
+  - key: API_HASH
+    sync: True
+  - key: API_ID
+    sync: True
+  - key: BOT_TOKEN
+    sync: True
+  - key: DATABASE_URI
+    sync: True
+  - key: DELETE_CHANNELS
+    sync: True
+  - key: FILE_FORWARD
+    sync: True
+  - key: LOG_CHANNEL
+    sync: True
   - key: FORCE_SUB
     sync: false
   - key: PYTHON_VERSION
+    sync: True
     value: 3.10.8
-    sync: true
   - key: PICS
-    value: true
-    sync: Add some telegraph link of pictures
-  - key: LOG_CHANNEL
-    value: your_log_channel_id
-    sync: true
-  - key: FILE_FORWARD
-    value: true
-    sync:  give Channel link for redirect file eg:https://t.me/abcdefgkkjajjm
-  - key: DELETE_CHANNELS
-    value: true
-    sync: Delete Multiple files from db, channel id -100xxxxxxxx
-  - key: DATABASE_URI
-    value: your_database_uri
-    sync: true
+    sync: false
   - key: DATABASE_NAME
     sync: false
   - key: CHACH_FILES
     sync: false
     value: 300
-  - key: BOT_TOKEN
-    value: your_bot_token
-    sync: true
-  - key: API_ID
-    value: your_api_id
-    sync: true
-  - key: API_HASH
-    value: your_api_hash
-    sync: true
-  - key: AI_LOGS
-    value: true
-    sync: true
-  - key: ADMINS
-    value: your_admin_ids
-    sync: true
-   - key: COLLECTION_NAME
-     sync: false
-     value: Telegram_files
   region: oregon
   buildCommand: pip install -r requirements.txt
   startCommand: python3 bot.py
