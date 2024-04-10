@@ -74,6 +74,9 @@ You can deploy this bot anywhere.
 <a href="https://heroku.com/deploy?template=https://github.com/Naruto46i/NARUTO-AUTO-FILTER-V-1">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 
+a href="https://render.com/deploy?repo=https://github.com/Jeronmathew44/NARUTO-AUTO-FILTER-V-1">
+  <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
+</a>
 ## Commands
 
 ```
