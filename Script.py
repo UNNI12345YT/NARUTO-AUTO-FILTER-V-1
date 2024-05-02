@@ -17,8 +17,7 @@ class script(object):
 
     SOURCE_TXT = """<b>NOTE:</b>
 <b>-THIS BOT REPO IS Open Project</b>
-<b>REPO:</b>
-- <a href=https://github.com/Naruto46i/NARUTO-AUTO-FILTER-V-1/tree/main>CLICK HERE</a>"""
+- <a href=https://t.me/UNNI_YT>CLICK HERE</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
