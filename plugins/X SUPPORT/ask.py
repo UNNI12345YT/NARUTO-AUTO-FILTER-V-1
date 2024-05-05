@@ -6,7 +6,7 @@ import google.generativeai as genai
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
-@Client.on_message(filters.command('ask') & filters.chat(SUPPORT_CHAT_ID)) # support work only added 
+@Client.on_message(filters.command('ask') & filters.chat(GROUP_ID)) # group work only added 
 async def ai_generate(client, message):
    user_input = message.text.split()[1:]
 
@@ -57,7 +57,7 @@ async def ai_generate(client, message):
 @Client.on_message(filters.command("ask"))
 async def ai_generate_private(client, message):
   buttons = [[
-    InlineKeyboardButton("SᑌᑭᑭOᖇT GᖇOᑌᑭ ", url="https://t.me/XBOTSUPPORTS")
+    InlineKeyboardButton("GᖇOᑌᑭ ", url="https://t.me/mangalassery_movies_group")
   ]]
   reply_markup = InlineKeyboardMarkup(buttons)
-  await message.reply_text(text=f"ʜᴇʏ {message.from_user.mention}\nᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪn SᑌᑭᑭOᖇT GᖇOᑌᑭ  👇 ", reply_markup=reply_markup)
+  await message.reply_text(text=f"ʜᴇʏ {message.from_user.mention}\nᴜsᴇ ᴛʜɪs ғᴇᴀᴛᴜʀᴇ ɪn  GᖇOᑌᑭ  👇 ", reply_markup=reply_markup)
