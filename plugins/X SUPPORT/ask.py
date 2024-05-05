@@ -6,7 +6,7 @@ import google.generativeai as genai
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
-@Client.on_message(filters.command('ask') & filters.chat(GROUP_ID)) # group work only added 
+@Client.on_message(filters.command('ask') & filters.chat()-1002140099961) # group work only added 
 async def ai_generate(client, message):
    user_input = message.text.split()[1:]
 
