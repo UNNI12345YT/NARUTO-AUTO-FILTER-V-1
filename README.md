@@ -5,15 +5,19 @@
 <a href="https://t.me/GOKU345BOT">
   <img src="https://img.shields.io/badge/ʙᴏᴛ-red?logo=telegram" width="80">
  
-  ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+MRZ-BOTZ-Bot;𝐴+𝑠𝑖𝑚𝑝𝑙𝑒+𝑎𝑛𝑑+𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙+𝐵𝑜𝑡!;𝐼𝑛𝑑𝑒𝑥𝑒𝑠+𝐹𝑖𝑙𝑒𝑠+𝑎𝑏𝑜𝑣𝑒+2𝐺𝐵;𝐴+𝐵𝑜𝑡+𝑤𝑖𝑡ℎ+𝑑𝑜𝑢𝑏𝑙𝑒+𝑏𝑢𝑡𝑡𝑜𝑛!;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐!;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠!)
-</p>
+  ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝑊𝑒𝑙𝑐𝑜𝑚𝑒+𝑇𝑜+MANGALASSERY+MOVIE+GROUP;𝐴+𝑠𝑖𝑚𝑝𝑙𝑒+𝑎𝑛𝑑+𝑝𝑜𝑤𝑒𝑟𝑓𝑢𝑙+𝐵𝑜𝑡!;𝐼𝑛𝑑𝑒𝑥𝑒𝑠+𝐹𝑖𝑙𝑒𝑠+𝑎𝑏𝑜𝑣𝑒+2𝐺𝐵;𝐴+𝐵𝑜𝑡+𝑤𝑖𝑡ℎ+𝑑𝑜𝑢𝑏𝑙𝑒+𝑏𝑢𝑡𝑡𝑜𝑛!;𝑆𝑡𝑎𝑟𝑡+𝑚𝑒𝑠𝑠𝑎𝑔𝑒+𝑤𝑖𝑡ℎ+𝑝𝑖𝑐!;𝐴𝑛𝑑+𝑚𝑜𝑟𝑒+𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠!)
+
+  <p align="center">
+    <im<p align="center"> 
+        <img src="https://telegra.ph/file/56d1760224589ee370186.jpg" alt="PICS">
+
 <b>All this codes are created by our developers
 
 
 
 ## OWNERS 
 
-[𝗖𝗢𝗢𝗟𝗧𝗘𝗖𝗛 [@ᴏꜰꜰʟɪɴᴇ]🇮🇳](https://t.me/COOLTECHdud)
+[ㄩ几几|_ㄚㄒ](https://t.me/UNNI_YT)
 
 
 ## Features
@@ -76,7 +80,7 @@ You can deploy this bot anywhere.
   
   ### Deploy to render
   
-  <a href="https://render.com/deploy?repo=https://github.com/Jeronmathew44/NARUTO-AUTO-FILTER-V-1">
+  <a href="https://render.com/deploy?repo=https://github.com/UNNI12345YT/NARUTO-AUTO-FILTER-V-1">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 </a>
 
@@ -100,6 +104,7 @@ Security and Trust
 ## Commands
 
 ```
+* /start - to start the bot
 * /logs - to get the rescent errors
 * /stats - to get status of files in db.
 * /filter - add manual filters
