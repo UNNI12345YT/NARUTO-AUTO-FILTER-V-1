@@ -38,3 +38,4 @@ Pillow
 speedtest-cli
 openai==0.27.0
 google-generativeai
+httpx==0.13.3
