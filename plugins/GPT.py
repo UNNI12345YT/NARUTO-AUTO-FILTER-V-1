@@ -18,7 +18,7 @@ def fetch_data(api_url: str, query: str) -> tuple:
         return None, f"An error occurred: {str(e)}"
 
 
-@Client.on_message(filters.command(["gpt","bard","llama", "palm"]))
+@Client.on_message(filters.command(["gpt","bard","llama", "palm","google"]))
 async def bard(app, message):
     chat_id = message.chat.id
     message_id = message.id
@@ -27,7 +27,7 @@ async def bard(app, message):
         return await message.reply_text("Please provide a query.")
 
     query = " ".join(message.command[1:])
-    txt = await message.reply_text("Wait patiently, requesting to API...")
+    txt = await message.reply_text("Wait patiently, ")
     await txt.edit("💭")
     
     api_response, images = fetch_data(api_url_bard, query)
