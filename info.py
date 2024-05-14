@@ -11,6 +11,7 @@ from collections import defaultdict
 from typing import Dict, List, Union
 from pyrogram import Client
 from info import BOT_USERNAME
+from config import BOT_USERNAME, DATABASE_URI, DATABASE_NAME, COLLECTION_NAME, USE_CAPTION_FILTER, MAX_BTN  # Update the import statement
 
 BOT_USERNSME = "GOKU345BOT" # replace here bot username without @
 
