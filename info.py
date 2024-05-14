@@ -115,7 +115,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "10"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/XBOTSUPPORTS")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/MALLU_MOVIES_PROK")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/mangalassery_movies_group")
 #Must change this link to work redirect (FILE_FORWORD)
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+OZwNX3AfewkxZmNl")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
