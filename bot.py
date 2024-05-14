@@ -21,6 +21,8 @@ from datetime import date, datetime
 import pytz
 from aiohttp import web
 from plugins import web_server
+from database.ia_filterdb import Media
+from config import BOT_USERNAME  # Update the import statement
 
 class Bot(Client):
 
