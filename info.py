@@ -10,7 +10,7 @@ import json
 from collections import defaultdict
 from typing import Dict, List, Union
 from pyrogram import Client
-
+from info import BOT_USERNAME
 
 BOT_USERNSME = "GOKU345BOT" # replace here bot username without @
 
