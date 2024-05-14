@@ -12,7 +12,7 @@ from typing import Dict, List, Union
 from pyrogram import Client
 
 
-BOT_USERNSME = "NARUTO" # replace here bot username without @
+BOT_USERNSME = "GOKU345BOT" # replace here bot username without @
 
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
