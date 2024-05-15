@@ -10,8 +10,8 @@ import time
 import os
 from pyrogram import filters, Client 
 
-# Command handler for /generate
-@Client.on_message(filters.command('generate'))
+# Command handler for /gen
+@Client.on_message(filters.command('gen'))
 async def generate_image(client, message):
     # Get the prompt from the command
     prompt = ' '.join(message.command[1:])
