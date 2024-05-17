@@ -24,10 +24,10 @@ async def bard(app, message):
     message_id = message.id
     
     if len(message.command) < 2:
-        return await message.reply_text("Please provide a query.")
+        return await message.reply_text("Pʟᴇᴀꜱᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ǫᴜᴇʀʏ.")
 
     query = " ".join(message.command[1:])
-    txt = await message.reply_text("Wait patiently, ")
+    txt = await message.reply_text("Wᴀɪᴛ ᴘᴀᴛɪᴇɴᴛʟʏ")
     await txt.edit("💭")
     
     api_response, images = fetch_data(api_url_bard, query)
