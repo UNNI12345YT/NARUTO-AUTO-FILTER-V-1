@@ -118,7 +118,7 @@ async def pm_text(bot, message):
     await message.reply_text("<b>Your message has been sent to my moderators !</b>",
                              reply_markup=InlineKeyboardMarkup(
                                  [[
-                                     InlineKeyboardButton('📍 Mᴏᴠɪᴇ ɪs ʜᴇʀᴇ 📍', url='https://t.me/mangalassery_movies_group')
+                                     InlineKeyboardButton('📍 Mᴏᴠɪᴇ ɪs ʜᴇʀᴇ 📍', url='https://t.me/mangalassery_movie_group')
                                  ]]
                              )
                              )
@@ -208,7 +208,7 @@ async def next_page(bot, query):
             ]
     btn.insert(0,
                [
-                   InlineKeyboardButton(f'⭕ᴊᴏɪɴ ғᴏʀ ɴᴇᴡ ᴍᴏᴠɪᴇs⭕', url='https://t.me/mangalassery_movies_group'),
+                   InlineKeyboardButton(f'⭕ᴊᴏɪɴ ғᴏʀ ɴᴇᴡ ᴍᴏᴠɪᴇs⭕', url='https://t.me/mangalassery_movie_group'),
                ]
                )
     btn.insert(1,
@@ -819,7 +819,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                   ],[
-                    InlineKeyboardButton('🍁 Oᴡɴᴇʀ', url='https://t.me/UNNI_YT'),
+                    InlineKeyboardButton('🍁 Oᴡɴᴇʀ', url='https://t.me/UNNIduo'),
                     InlineKeyboardButton('🌿 Sᴜᴘᴘᴏʀᴛ', callback_data="spu")
                   ],[
                     InlineKeyboardButton('❗ Hᴇʟᴘ', callback_data='help'),
@@ -898,7 +898,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Log', url="https://t.me/botuptest"),
             ], [
-                InlineKeyboardButton('Gʀᴏᴜᴘ', url='mangalassery_movies_group'),
+                InlineKeyboardButton('Gʀᴏᴜᴘ', url='mangalassery_movie_group'),
                 InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://tm/myre'),
             ], [
                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/XBOTSUPPORTS')
@@ -934,8 +934,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "spu":
         buttons = [[
-            InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/mangalassery_movies_group'),
-             InlineKeyboardButton('CHANNEL', url='https://t.me/UNNI_YT'),
+            InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/mangalassery_movie_group'),
+             InlineKeyboardButton('CHANNEL', url='https://t.me/UNNIduo'),
             ], [
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/XBOTSUPPORTS'),
             ], [
@@ -1418,7 +1418,7 @@ async def auto_filter(client, msg, spoll=False):
     key = f"{message.chat.id}-{message.id}"
     btn.insert(0,
                [
-                   InlineKeyboardButton(f'⭕ᴊᴏɪɴ ғᴏʀ ɴᴇᴡ ᴍᴏᴠɪᴇs⭕', url='https://t.me/mangalassery_movies_group'),
+                   InlineKeyboardButton(f'⭕ᴊᴏɪɴ ғᴏʀ ɴᴇᴡ ᴍᴏᴠɪᴇs⭕', url='https://t.me/mangalassery_movie_group'),
                ]
                )
     btn.insert(1,
@@ -1536,7 +1536,7 @@ async def auto_filter(client, msg, spoll=False):
                     text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ‌ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...</b>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/mangalassery_movies_group')
+                            InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/mangalassery_movie_group')
                         ]]
                     )
                 )
@@ -1562,7 +1562,7 @@ async def auto_filter(client, msg, spoll=False):
                 text=f"<b>Hᴇʏ {message.from_user.mention}, {str(total_results)} ʀᴇsᴜʟᴛs ᴀʀᴇ ғᴏᴜɴᴅ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ғᴏʀ ʏᴏᴜʀ ᴏ‌ᴜᴇʀʏ {search}. Kɪɴᴅʟʏ ᴜsᴇ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴏʀ ᴍᴀᴋᴇ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ᴍᴏᴠɪᴇ ғɪʟᴇs. Tʜɪs ɪs ᴀ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ғɪʟᴇs ғʀᴏᴍ ʜᴇʀᴇ...</b>",
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/mangalassery_movies_group')
+                        InlineKeyboardButton('Rᴇǫᴜᴇsᴛ ʜᴇʀᴇ 🚀', url='https://t.me/mangalassery_movie_group')
                     ]]
                 )
             )
