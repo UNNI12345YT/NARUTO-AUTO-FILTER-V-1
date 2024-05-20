@@ -898,7 +898,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Log', url="https://t.me/botuptest"),
             ], [
-                InlineKeyboardButton('Gʀᴏᴜᴘ', url='mangalassery_movie_group'),
+                InlineKeyboardButton('Gʀᴏᴜᴘ', url='Blockbuster_Brigade'),
                 InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://tm/myre'),
             ], [
                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/XBOTSUPPORTS')
